@@ -2,8 +2,6 @@
 using LMSUI.ComponentHelper;
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using TechTalk.SpecFlow;
 
 namespace LMSUI.StepDefinition
@@ -19,8 +17,8 @@ namespace LMSUI.StepDefinition
         [Given(@"User is navigated to LMS page")]
         public void GivenUserIsNavigatedToLMSPage()
         {
-            Console.WriteLine("website url: "+ObjectRepository.Config.GetWebsite());
-          //  NavigationHelper.NavigateToUrl(ObjectRepository.Config.GetWebsite());
+            //Console.WriteLine("website url: "+ObjectRepository.Config.GetWebsite());
+            NavigationHelper.NavigateToUrl(ObjectRepository.Config.GetWebsite());
         }
 
      
