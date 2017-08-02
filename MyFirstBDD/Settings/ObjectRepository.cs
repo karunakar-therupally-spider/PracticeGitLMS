@@ -11,7 +11,7 @@ namespace LMSUI.Settings
     {
         public static IConfig Config { get; set; }
         public static IWebDriver Driver { get; set; }
-
+        // test
         //public static HomePage hPage;
         //public static LoginPage lPage;
      
