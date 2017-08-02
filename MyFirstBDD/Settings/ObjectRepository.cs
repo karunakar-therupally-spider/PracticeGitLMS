@@ -7,7 +7,7 @@ using OpenQA.Selenium;
 
 namespace LMSUI.Settings
 {
-    class ObjectRepository
+    abstract class ObjectRepository
     {
         public static IConfig Config { get; set; }
         public static IWebDriver Driver { get; set; }
